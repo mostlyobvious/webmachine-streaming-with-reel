@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celluloid (0.14.1)
+      timers (>= 1.0.0)
+    celluloid-io (0.14.1)
+      celluloid (>= 0.14.1)
+      nio4r (>= 0.4.5)
+    certified (0.1.1)
+    http (0.4.0)
+      certified
+      http_parser.rb
+    http_parser.rb (0.5.3)
+    i18n (0.6.4)
+    multi_json (1.7.7)
+    nio4r (0.4.6)
+    rack (1.5.2)
+    reel (0.3.0)
+      celluloid-io (>= 0.8.0)
+      http (>= 0.2.0)
+      http_parser.rb (>= 0.5.3)
+      rack (>= 1.4.0)
+      websocket_parser (>= 0.1.0)
+    timers (1.1.0)
+    webmachine (1.1.0)
+      i18n (>= 0.4.0)
+      multi_json
+    websocket_parser (0.1.4)
+      http
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  reel (~> 0.3)
+  webmachine (~> 1.1)
